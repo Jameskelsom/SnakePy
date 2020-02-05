@@ -9,7 +9,7 @@ def on_grid_random(): #localização
     return (x//10 * 10, y//10*10)
 
 
-def collision(c1, c2):
+def collision(c1, c2): #colisão 
     return (c1[0] == c2[0]) and (c1[1] == c2[1])
 
 
