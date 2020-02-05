@@ -3,7 +3,7 @@ import random
 from pygame.locals import *
 
 
-def on_grid_random():
+def on_grid_random(): #localização
     x = random.randint(0, 590)
     y = random.randint(0, 590)
     return (x//10 * 10, y//10*10)
